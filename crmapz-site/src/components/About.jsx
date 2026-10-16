@@ -38,27 +38,40 @@ export default function About() {
             </p>
           </div>
 
-          <aside className="reveal opacity-0 rounded-md border border-brand-600/30 bg-brand-900/90 p-6 lg:col-span-2">
+          <aside className="reveal opacity-0 rounded-md border border-brand-600/30 bg-brand-900/90 p-6 md:p-7 lg:col-span-2">
             <p className="font-mono text-xs uppercase tracking-[0.25em] text-ink-400">Founder</p>
             <h3 className="mt-2 text-xl font-semibold text-white">Charity R. Mapfudza</h3>
-            <p className="text-sm text-brand-300">Founder · Software Developer · Technology Entrepreneur</p>
+            <p className="mt-1 text-sm leading-relaxed text-brand-300">
+              <span className="whitespace-nowrap">Founder</span>
+              <span aria-hidden="true"> · </span>
+              <span className="whitespace-nowrap">Software Developer</span>
+              <span aria-hidden="true"> · </span>
+              <span className="whitespace-nowrap">Technology Entrepreneur</span>
+            </p>
 
             <div className="my-5 h-px bg-brand-800/70" />
 
-            <p className="text-sm leading-relaxed text-brand-100/80">
-              Charity is working towards completing the Software Engineering Mentorship
-              Programme with Tech4Dev, with graduation scheduled for 22 October 2026. Her
-              experience spans collaborative software engineering, frontend development and
-              AI integration, including Anchor Agent and Pangolin Loop.
-            </p>
+            <div className="space-y-4 text-sm leading-relaxed text-brand-100/80">
+              <p>
+                I’m a software developer and technology entrepreneur passionate about
+                turning ideas into practical digital solutions. Through CR Mapz
+                Technologies, I help individuals and businesses use technology to solve
+                problems, strengthen their online presence, and bring their ideas to life.
+              </p>
+              <p>
+                I’m continuously expanding my expertise in software engineering and AI,
+                with hands-on experience contributing to projects such as Anchor Agent
+                and Pangolin Loop.
+              </p>
+            </div>
 
             <a
               href={SOCIAL[0].href}
               target="_blank"
               rel="noreferrer"
-              className="mt-5 inline-block text-sm font-semibold text-brand-300 transition hover:text-white"
+              className="mt-6 inline-block text-sm font-semibold text-brand-300 transition hover:text-white"
             >
-              View developer portfolio →
+              Explore my developer portfolio →
             </a>
           </aside>
         </div>
