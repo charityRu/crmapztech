@@ -1,7 +1,5 @@
-// Only verified information is published here.
-// Not published yet (waiting for certificate titles, dates or project details):
-//   AI Fluency, CompTIA AI, Anthropic AI, AWS AI, SheCodes workshop,
-//   Women Techsters Fellowship, CareQueue, Project Astra, DevDen.
+// Only information supplied or confirmed by the founder is published here.
+// Waiting for verification: CareQueue, Project Astra, DevDen.
 
 export const PROJECTS = [
   {
@@ -32,25 +30,34 @@ export const PROJECTS = [
 
 export const QUALIFICATIONS = [
   {
-    title: 'Software Engineering Mentorship Programme',
-    issuer: 'Tech4Dev',
-    category: 'Software engineering',
-    status: 'Expected',
-    detail: 'Expected graduation: 22 October 2026.',
+    category: 'Software',
+    title: 'Software Engineering',
+    provider: 'Tech4Dev',
+    text: 'Training in software engineering principles, collaborative development, problem-solving, and building practical software solutions.',
   },
   {
+    category: 'AI',
+    title: 'Artificial Intelligence',
+    provider: 'AI Fluency, CompTIA AI Essentials & Anthropic AI',
+    text: 'Professional development in AI fundamentals, understanding AI capabilities, and applying artificial intelligence responsibly and effectively.',
+  },
+  {
+    category: 'Entrepreneurship',
+    title: 'Digital Entrepreneurship',
+    provider: 'University of Johannesburg',
+    text: 'Developing knowledge of digital business models, entrepreneurship, innovation, and the use of technology to create business opportunities.',
+  },
+  {
+    category: 'Programme',
     title: 'TW4Tech Programme',
-    issuer: 'TW4Tech',
-    category: 'Professional programme',
-    status: 'Completed',
-    detail: 'Completion confirmed on 6 October 2026, including the final examination and final deliverable.',
+    provider: null,
+    text: 'Professional development focused on strengthening technical skills, practical problem-solving, and readiness for opportunities in technology.',
   },
   {
-    title: 'Future Digital Skills',
-    issuer: 'FNB App Academy · University of Johannesburg LMS',
-    category: 'Digital skills',
-    status: 'Assessment result',
-    detail: 'Scored 100% on the Foundations of Digital Literacy assessment on 18 August 2026.',
+    category: 'Skills',
+    title: 'Additional Technical & Digital Skills Development',
+    provider: 'SheCodes, FNB App Academy & Women Techsters',
+    text: 'Continuous learning in coding, digital skills, technology, and professional development, supporting growth as a software developer and technology entrepreneur.',
   },
 ]
 
